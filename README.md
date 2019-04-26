@@ -27,7 +27,9 @@ Important: SL(A)EMP makes use of various open-source software.
 Please assure you agree with their license before using it. Any part of SL(A)EMP itself is released under GNU General Public License, Version 3.
 
 ```
-git clone https://github.com/timscha/SLEMP SLEMP
+yum install git -y
+git clone https://github.com/cunninghambr/SLEMP SLEMP
+cd SLEMP
 chmod +x installer.sh add_domain.sh
 ./installer.sh
 ```
